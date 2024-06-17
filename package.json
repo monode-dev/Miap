@@ -1,11 +1,21 @@
 {
   "name": "miap",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "pub": "sucrase-node pub.js",
+    "pub:prod": "sucrase-node pub.js --prod"
   },
   "keywords": [],
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.4.2",
+    "semver": "^7.5.4",
+    "sucrase": "^3.32.0"
+  },
+  "dependencies": {
+    "@revenuecat/purchases-capacitor": "^7.6.1"
+  }
 }
