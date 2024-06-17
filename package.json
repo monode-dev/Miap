@@ -1,7 +1,10 @@
 {
   "name": "miap",
-  "version": "0.0.5",
+  "version": "0.0.9",
   "description": "",
+  "type": "module",
+  "main": "./dist/Miap.js",
+  "types": "./dist/Miap.d.ts",
   "scripts": {
     "build": "tsc",
     "pub": "sucrase-node pub.js",
